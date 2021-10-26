@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{41AC13A0-122D-44C4-A66C-2D0AD904350B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{537CBABF-2FCD-4832-9E52-9B4B4E1D8D60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api-playground.api", "src\api-playground.api\api-playground.api.csproj", "{8DC20D57-45FC-42F6-A727-3662555EF023}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api-playground.core", "src\api-playground.core\api-playground.core.csproj", "{B3E37933-B9EA-4B03-9DDB-05297D852F78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api-playground.infrastructure", "src\api-playground.infrastructure\api-playground.infrastructure.csproj", "{6C073633-A2E0-45AA-A614-10846F39EEEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api-playground.api.test", "test\api-playground.api.test\api-playground.api.test.csproj", "{00224DA5-90AB-42AA-85AE-2A72B8A86AE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api-playground.core.test", "test\api-playground.core.test\api-playground.core.test.csproj", "{60DA713D-0676-402A-BD45-FA2C8B02CF9E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8DC20D57-45FC-42F6-A727-3662555EF023} = {41AC13A0-122D-44C4-A66C-2D0AD904350B}
+		{B3E37933-B9EA-4B03-9DDB-05297D852F78} = {41AC13A0-122D-44C4-A66C-2D0AD904350B}
+		{6C073633-A2E0-45AA-A614-10846F39EEEB} = {41AC13A0-122D-44C4-A66C-2D0AD904350B}
+		{00224DA5-90AB-42AA-85AE-2A72B8A86AE3} = {537CBABF-2FCD-4832-9E52-9B4B4E1D8D60}
+		{60DA713D-0676-402A-BD45-FA2C8B02CF9E} = {537CBABF-2FCD-4832-9E52-9B4B4E1D8D60}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8DC20D57-45FC-42F6-A727-3662555EF023}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DC20D57-45FC-42F6-A727-3662555EF023}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DC20D57-45FC-42F6-A727-3662555EF023}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DC20D57-45FC-42F6-A727-3662555EF023}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3E37933-B9EA-4B03-9DDB-05297D852F78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3E37933-B9EA-4B03-9DDB-05297D852F78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3E37933-B9EA-4B03-9DDB-05297D852F78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3E37933-B9EA-4B03-9DDB-05297D852F78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C073633-A2E0-45AA-A614-10846F39EEEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C073633-A2E0-45AA-A614-10846F39EEEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C073633-A2E0-45AA-A614-10846F39EEEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C073633-A2E0-45AA-A614-10846F39EEEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00224DA5-90AB-42AA-85AE-2A72B8A86AE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00224DA5-90AB-42AA-85AE-2A72B8A86AE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00224DA5-90AB-42AA-85AE-2A72B8A86AE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00224DA5-90AB-42AA-85AE-2A72B8A86AE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60DA713D-0676-402A-BD45-FA2C8B02CF9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60DA713D-0676-402A-BD45-FA2C8B02CF9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60DA713D-0676-402A-BD45-FA2C8B02CF9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60DA713D-0676-402A-BD45-FA2C8B02CF9E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
