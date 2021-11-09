@@ -2,7 +2,7 @@
 
     <PropertyGroup>
         <TargetFramework>net5.0</TargetFramework>
-        <RootNamespace>api_playground.infrastructure</RootNamespace>
+        <RootNamespace>ApiPlayground.Infrastructure</RootNamespace>
     </PropertyGroup>
 
 </Project>
