@@ -1,0 +1,34 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: api-playground
+  labels:
+    app: api-playground
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: api-playground
+  template:
+    metadata:
+      labels:
+        app: api-playground
+    spec:
+      containers:
+      - name: api
+        image: localhost:5000/api-playground:1.0
+        ports:
+        - containerPort: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: api-playground
+spec:
+  type: NodePort
+  selector:
+    app: api-playground
+  ports:
+    - port: 80
+      targetPort: 80
+      nodePort: 30100
