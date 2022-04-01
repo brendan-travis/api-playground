@@ -1,3 +1,4 @@
 #!/bin/bash
-./infrastructure/build.sh
-./infrastructure/deploy.sh
+./infrastructure/scripts/build-api.sh
+./infrastructure/scripts/deploy-api.sh
+./infrastructure/scripts/deploy-ingress.sh

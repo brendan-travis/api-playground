@@ -1,5 +1,2 @@
 #!/bin/bash
-kubectl delete -f infrastructure/api.manifest.yaml
-
-docker stop registry
-docker rm registry
+./infrastructure/scripts/teardown-all.sh
